@@ -7,7 +7,6 @@ public class perfectnumber {
         System.out.println("Mükemmel sayı olup olmadığını kontrol etmek istediğiniz sayıyı giriniz!");
         int number= scan.nextInt();
         a.perfect(number);
-
     }
     public void perfect(int i) {
         int x=0;
@@ -23,7 +22,4 @@ public class perfectnumber {
             System.out.println(i+" mükemmel sayı değildir.");
         }
     }
-    
-
-    
 }
